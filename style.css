@@ -1,0 +1,92 @@
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+
+#title{
+  font-weight: lighter;
+  font-family: helvetica;
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+#nav{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 98%;
+  height: 200px;
+}
+
+#div1{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 98%;
+  height: 400px;
+  text-align: center;
+}
+
+.logo{
+  height: 60px;
+  margin-right: 20px;
+}
+
+.profile{
+  /** detalles **/
+  color: grey;
+  font-size: 15px;
+}
+
+.profile__item{
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profile__item:hover{
+  border: 5px solid white;
+}
+
+#user1{
+  background-color: blue;
+}
+
+#user2{
+  background-color: red;
+}
+
+#user3{
+  background-color: green;
+}
+
+#adduser{
+  background-color: white;
+  color: black;
+}
+
+.button__item{
+  height: 20px;
+  width: 200px;
+  border: 2px solid grey;
+  font-size: 15px;
+  font-family: roboto;
+  margin: 35px;
+  padding: 4px 0px 4px 0px;
+  text-align: center;
+  position: fixed;
+  left: 37%;
+  color: grey;
+}
+
+.button__item:hover{
+  color: white;
+  border: 2px solid white;
+}
